@@ -1,0 +1,424 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* BODY */
+.body {
+  background: #f6f5f2;
+  color: #000;
+}
+
+/* HEADER */
+header {
+  padding: 32px 64px;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.logo span {
+  color: #ff6a00;
+}
+
+/* NAV */
+.nav {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+.nav a:hover {
+  color: #ff6a00;
+}
+
+.signup-btn {
+  background: #ff6a00;
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 500;
+
+}
+
+.signup-btn:hover {
+  background: #fff;
+  color: #ff6a00;
+}
+
+.hero-content {
+  font-size: 160px;
+  font-weight: bold;
+  padding: 100px 64px;
+  text-align: center;
+background-image: url(/assests/section\ 6.jfif);
+
+}
+
+.what-we-do {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 60px;
+  padding: 80px 100px;
+}
+
+.left h2 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 60px;
+}
+
+.image-icon {
+  margin-top: 40px;
+}
+
+.right p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  max-width: 800px;
+}
+
+body {
+  background-color: white;
+}
+
+.mission {
+  background-color: #ff5a00;
+  padding: 80px 100px;
+  color: #ffffff;
+}
+
+.mission-container {
+  display: flex;
+  gap: 80px;
+  align-items: flex-start;
+}
+
+.mission-title {
+  font-size: 48px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.mission-text {
+  max-width: 900px;
+}
+
+.mission-text p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+.vision-section {
+  padding: 80px 100px;
+}
+
+.vision-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.vision-left h2 {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 60px;
+}
+
+.image-placeholder {
+  width: 120px;
+  height: 120px;
+  border: 3px solid #000;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.vision-right p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 24px;
+  max-width: 700px;
+}
+
+.values-section {
+  padding: 100px;
+}
+.body{
+  color: #000;
+}
+.values-container {
+  display: grid;
+  grid-template-columns: 1fr 2.2fr;
+  gap: 80px;
+  align-items: start;
+}
+
+.values-left h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.values-right p {
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 24px;
+  max-width: 760px;
+}
+.tutors {
+  text-align: center;
+  padding: 80px 60px;
+}
+
+.subtitle {
+  font-size: 14px;
+  letter-spacing: 2px;
+  color: #777;
+  margin-bottom: 12px;
+}
+
+.tutors h1 {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 60px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.card {
+  position: relative;
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.card img {
+   width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-info {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+.card-info h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.card-info p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.cta {
+  background: #000;
+  color: #fff;
+  padding: 16px 36px;
+  border: none;
+  border-radius: 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.cta:hover{
+  color: #ffffff;
+}
+/* Responsive */
+@media (max-width: 1000px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .tutors h1 {
+    font-size: 30px;
+  }
+}
+
+
+/* BUTTON */
+.btn-primary {
+  margin-top: 60px;
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 16px 36px;
+  border-radius: 999px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: #222;
+}
+
+
+/* SECTION */
+.newsletter {
+  padding: 80px 20px;
+  display: flex;
+  justify-content: center;
+
+}
+
+/* BLACK CONTAINER */
+.newsletter-box {
+  background: #000;
+  color: #fff;
+  width: 100%;
+  max-width: 1200px;
+  padding: 80px 40px;
+  border-radius: 40px;
+  text-align: center;
+}
+
+/* TEXT */
+.newsletter-box h1 {
+  font-size: 42px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.newsletter-box p {
+  font-size: 16px;
+  color: #ddd;
+  margin-bottom: 50px;
+}
+
+/* FORM */
+.newsletter-form {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.newsletter-form input {
+  width: 420px;
+  max-width: 100%;
+  padding: 18px 28px;
+  border-radius: 999px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+/* BUTTON */
+.newsletter-form button {
+  background: #ff6a00;
+  color: #fff;
+  border: none;
+  padding: 18px 36px;
+  border-radius: 999px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.newsletter-form button:hover {
+  background: #e65c00;
+}
+
+.footer {
+  padding: 80px 40px 0;
+  background: #fff;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* HEADINGS */
+.footer-col h4 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+/* LIST */
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col ul li {
+  font-size: 20px;
+  color: #888;
+  margin-bottom: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-col ul li:hover {
+  color: #000;
+}
+
+/* SOCIAL ICONS */
+.socials {
+  display: flex;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.socials span {
+  width: 40px;
+  height: 40px;
+  background: #000;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* BOTTOM LINE */
+.footer-bottom {
+  margin-top: 60px;
+  height: 20px;
+  background: #000;
+  width: 100%;
+}
