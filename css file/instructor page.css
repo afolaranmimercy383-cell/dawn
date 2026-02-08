@@ -10,19 +10,6 @@ body {
   color: black;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-}
-
-/* BODY */
-.body {
-  background: #f6f5f2;
-  color: #000;
-}
-
 /* HEADER */
 header {
   padding: 32px 64px;
